@@ -31,6 +31,8 @@ class Graph
     int n; // number of nodes
     vector<vector<int>> adj;
 
+    vector<vector<int>> adj_rev; // reverse adj for directed graph
+
     // track if a node is visited
     // while traversing the graph
     vector<int> visited;
@@ -42,8 +44,6 @@ class Graph
      */
     void initVisited()
     {
-        if (!visited.size())
-            visited.resize(n + 1);
         visited.assign(n + 1, 0);
     }
 
@@ -72,6 +72,9 @@ public:
     void addDirectedEdge(int u, int v)
     {
         adj[u].push_back(v);
+
+        // add reverse edge
+        adj_rev[v].push_back(u);
     }
 
     /**
@@ -292,5 +295,9 @@ public:
         visited[u] = 2; // added to topological order
         order.push_back(u);
         return acyclic;
+    }
+
+    void connectedComponents(){
+
     }
 };
