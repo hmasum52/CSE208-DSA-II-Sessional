@@ -3,3 +3,7 @@
 **/*.exe
 **/1805052
 **/1805052.zip
+.docx
+.vscode
+**/*.docx
+**/tempCodeRunnerFile.cpp
