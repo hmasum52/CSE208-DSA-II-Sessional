@@ -4,8 +4,11 @@
 - Practice problem: [pdf](./w2-graph-practice/graph_practice1.pdf)
 - My code: [code](./w2-graph-practice/1805052.cpp)
 
-## Week-3: Online of graph(bfs, dfs, topsort)
-
+## Week-3: Online of graph
+```BFS```
+```DFS```
+```Topological-sort```
+```Strongly-connected-component```
 - Online specification: [pdf](./w3-graph-online/Online-on-Graph-Algorithms-(A1-A2).pdf)
 - My code: [code](./w3-graph-online/a_section_solution.cpp)
 

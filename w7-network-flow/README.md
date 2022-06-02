@@ -1,3 +1,0 @@
-# Links
-- [Maxflow implementation in java](https://d3c33hcgiwev3.cloudfront.net/algs4partII_L05-S5.e76194a0885011e3a14faff436040098/full/720p/index.webm?Expires=1641945600&Signature=Z1mSbRSHbYXTb1c8v8Q00aZ54yXxMHiTkxUTvVpH~HBa0awDKsjwwKvAiLtD8hMLNI-1ghF~AAH0zSsrL-MtT3Ya0YaaRVmMeCZ1LD~MWjU~T-wb52wEbiIo9Bv-8CJhwPlw0joH63nGF-BjFw~NgXl9VBRXPTjCCqAtkLQAdX0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-- [video1](https://www.youtube.com/watch?v=0CpMXqgL8Ew&t=2669s)
