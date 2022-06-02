@@ -165,6 +165,7 @@ public:
         }
 
         visited[u] = 2;
+        return acyclic;
     }
 
     /**

@@ -231,7 +231,7 @@ BinomialTree* copyTree(BinomialTree* t){
     nt->sibling = t->sibling;
     nt->child = t->child;
     nt->degree = t->degree;
-    return nt;
+    //cout<<t->key<<" copied"<<endl;
 }
 
 BinomialTree* unionBinomialTree(BinomialTree* t1, BinomialTree* t2){
